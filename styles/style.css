@@ -341,3 +341,7 @@
   filter: hue-rotate(180deg);
 }
 
+@supports (
+  (-webkit-text-stroke: 1px var(--page-background-color, #ffffff)) or
+    (text-stroke: 1px var(--page-background-color, #ffffff))
+)
