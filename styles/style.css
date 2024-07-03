@@ -344,4 +344,10 @@
 @supports (
   (-webkit-text-stroke: 1px var(--page-background-color, #ffffff)) or
     (text-stroke: 1px var(--page-background-color, #ffffff))
-)
+) {
+  .card__img-label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--page-background-color, #ffffff);
+    text-stroke: 1px var(--page-background-color, #ffffff);
+  }
+}
